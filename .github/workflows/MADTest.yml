@@ -21,11 +21,6 @@ jobs:
             ls
       - name: Create Test Files
         run: |
-          cp app/src/main/res/layout/activity_main.xml testDirectory/test.xml
-          cp testDirectory/Practice2Test.java app/src/test/java/sg/edu/np/mad/madpractical/UserTest.java
-          ls
-          cd app/src/test/java/sg/edu/np/mad/madpractical
-          ls
           cd \
       - name: Setup go
         uses: actions/setup-go@v2
